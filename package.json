@@ -1,0 +1,19 @@
+{
+  "name": "npm-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "npm run dev --workspace=app/web",
+    "dev:server": "npm run start:dev --workspace=app/server",
+    "dev:apy-py": "npm run dev --workspace=app/api-python"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "app/web",
+    "app/server",
+    "app/api-python"
+  ]
+}

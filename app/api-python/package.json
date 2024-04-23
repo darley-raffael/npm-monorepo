@@ -1,0 +1,12 @@
+{
+  "name": "@repo/api-python",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "poetry run python main.py"
+  },
+  "author": "",
+  "license": "ISC"
+}
